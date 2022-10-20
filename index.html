@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecole 241 KIDS</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_queries.css">
+  <link rel="stylesheet" href="./assets/css/animation.css">
+  <link rel="stylesheet" href="script.js">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+
+</head>
+    <!---------CHATBOX WHATSAPP--------->
+    
+    <script type="text/javascript">
+      var config = {
+        phone: " 24174129812",
+        call: "Nous laisser un message",
+        position: "ww-right",
+        size: "ww-normal",
+        text: "Salut! Je suis intéressé par vos offres",
+        type: "ww-standard",
+        brand: "Ecole 241 Kids",
+        subtitle: "Formation aux métiers du numérique pour enfanrs",
+        welcome: "Salut!Comment pourrions-nous vous aider?"
+      };
+      var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+      var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
+
+      s.onload = function () { tmWidgetInit(config) };
+      var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+    </script>0
+    
+    <!---------SMTP.JS------------>
+    
+    <script src=https://smtpjs.com/v3/smtp.js></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.@gmail.com",
+          Username: "username",
+          Password: "password",
+          To: "officiel.lionel26@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact From Enquiry",
+          Body: "Nom et prénom" + document.getElementById("name").value,
+          Body: "email" + document.getElementById("email").value,
+          Body: "phone" + document.getElementById("phone").value,
+          Body: "message" + document.getElementById("message").value,
+        }).then(
+          message => alert("Message envoyé avec succès")
+        );
+      }
+    </script>
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-brand">
+          <img src="./assets/images/logo 241.jpg" alt="Ecole 241 Logo" style="height: 45px;">
+        </div>
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a href="#home">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#course">Formations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tarifs">Tarifs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">contact</a>
+          </li>
+
+        </ul>
+
+        <button class="btn btn-primary">
+          <p class="btn-text">Essayez</p>
+          <span class="square"></span>
+        </button>
+
+        <button class="nav-toggle-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </nav>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="deco-shape shape-1">
+          <img src="./assets/images/shape-1.png" alt="art shape" width="70">
+        </div>
+        <div class="deco-shape shape-2">
+          <img src="./assets/images/shape-2.png" alt="art shape" width="55">
+        </div>
+        <div class="deco-shape shape-3">
+          <img src="./assets/images/shape-3.png" alt="art shape" width="120">
+        </div>
+        <div class="deco-shape shape-4">
+          <img src="./assets/images/shape-4.png" alt="art shape" width="30">
+        </div>
+
+        <div class="home-left">
+
+          <p class="section-subtitle">Bienvenues sur la formation aux métiers du numérique pour enfants</p>
+
+          <h1 class="main-heading">
+            Obtenez la classe de haute
+            <span class="underline-img">FORMATION<img src="./assets/images/banner-line.png" alt="line"></span>
+          </h1>
+
+          <p class="section-text">
+            Integrer la classe des référent digitaux et développeurs Gabonais.
+          </p>
+
+          <div class="home-btn-group">
+            <button class="btn btn-primary">
+              <p class="btn-text">Découvertes des compétences</p>
+              <span class="square"></span>
+            </button>
+
+            <button class="btn btn-secondary">
+              <p class="btn-text">Contactez-nous</p>
+              <span class="square"></span>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <div class="img-box">
+
+            <img src="./assets/images/banner-img-bg.png" alt="colorful background shape" class="background-shape">
+            <img src="./assets/images/801.webp" alt="banner image" class="banner-img">
+
+            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
+            <img src="./assets/images/banner-aliment-icon-2.png" alt="" class="icon-2 smooth-zigzag-anim-2" width="240">
+            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-3 smooth-zigzag-anim-3" width="195">
+            <img src="./assets/images/banner-aliment-icon-4.png" alt="" class="icon-4 drop-anim">
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #COURSE CATEGORY SECTION
+      -->
+
+      <section class="category">
+
+        <p class="section-subtitle">Catégorie de cours</p>
+
+        <h2 class="section-title">Explorez les cours populaires</h2>
+
+        <ul class="course-item-group">
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-1.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-1-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Lire nos Performances</a>
+              </h3>
+
+              <p class="category-subtitle">Les données sont tout</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-2.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-2-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Stratégie d'entreprise</a>
+              </h3>
+
+              <p class="category-subtitle">Améliorez votre entreprise familiale</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-3.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-3-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Apprendre l'Art & le Design</a>
+              </h3>
+
+              <p class="category-subtitle">Amusant & Stimulant</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-4.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-4-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Apprendre le style de vie</a>
+              </h3>
+
+              <p class="category-subtitle">Nouvelles compétences, Nouveaux ambassadeurs aux métiers du numérique</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-5.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-5-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Apprendre le Marketing</a>
+              </h3>
+
+              <p class="category-subtitle">Améliorez votre entreprise familiale</p>
+            </div>
+
+          </li>
+
+
+          <li class="course-category-item">
+
+            <div class="wrapper">
+              <img src="./assets/images/course-category-icon-6.png" alt="category icon" class="category-icon default">
+
+              <img src="./assets/images/course-category-icon-6-w.png" alt="category icon white"
+                class="category-icon hover">
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Apprendre les Finances</a>
+              </h3>
+
+              <p class="category-subtitle">Amusant & Stimulant</p>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+
+            <img src="./assets/images/kid (2).png" alt="about person" class="about-img">
+
+            <img src="./assets/images/banner-aliment-icon-1.png" alt="" class="icon-1 smooth-zigzag-anim-1" width="250">
+            <img src="./assets/images/banner-aliment-icon-3.png" alt="" class="icon-2 smooth-zigzag-anim-3" width="195">
+          </div>
+
+        </div>
+
+        <div class="about-right">
+
+          <p class="section-subtitle">A propos de nous</p>
+
+          <h2 class="section-title">Nous avons une meilleure éducation en présentiel</h2>
+
+          <p class="section-text">
+            Le développement systématique des outils numériques impacte fortement les travailleurs et les entreprises. La
+            quasi-totalité des métiers comportent une composante numérique. Les connaissances digitales font aujourd’hui partie des
+            compétences initiales.
+          </p>
+
+          <ul class="about-ul">
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Maintenant que le numérique prend de l'empleur au monde , la jeunesse doit être formée.</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Maintenant que le numérique prend de l'empleur au monde , la jeunesse doit être formée.</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Maintenant que le numérique prend de l'empleur au monde , la jeunesse doit être formée.</p>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">
+            <p class="btn-text">Explorez plus...</p>
+            <span class="square"></span>
+          </button>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <section class="course" id="course">
+      
+        <p class="section-subtitle">Nos formations en ligne</p>
+      
+        <h2 class="section-title">Trouvez les cours en ligne et en présentiel qui convienent à vos enfants</h2>
+      
+        <div class="course-grid">
+      
+          <div class="course-card">
+      
+            <div class="course-banner">
+              <img src="./assets/images/jeune.jpg" alt="course banner">
+      
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Business</a>
+                <a href="#" class="badge-tag blue">Marketing</a>
+              </div>
+            </div>
+      
+            <div class="course-content">
+      
+              <h3 class="card-title">
+                <a href="#">Pour devenir chef de produit, il faut acquérir des compétences.</a>
+              </h3>
+      
+              <div class="wrapper border-bottom">
+      
+                <div class="author">
+                  <img src="./assets/images/av2.png" alt="course instructor image" class="author-img" style="height: 50px;">
+      
+                  <a href="#" class="author-name">Lionel Johnson N. MOUKENDOU</a>
+                </div>
+      
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>5.0 (2k)</p>
+                </div>
+      
+              </div>
+      
+              <div class="wrapper">
+                <div class="course-price">20.000F.CFA</div>
+      
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+      
+                  <p>600k</p>
+                </div>
+              </div>
+      
+            </div>
+      
+          </div>
+
+
+          <div class="course-card">
+
+            <div class="course-banner">
+              <img src="./assets/images/kid (2).webp" alt="course banner">
+
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Développeur Web</a>
+                <a href="#" class="badge-tag blue">Reférent Digital</a>
+              </div>
+            </div>
+
+            <div class="course-content">
+
+              <h3 class="card-title">
+                <a href="#">Le code et les applications web responsive en mutation</a>
+              </h3>
+
+              <div class="wrapper border-bottom">
+
+                <div class="author">
+                  <img src="./assets/images/av2.png" alt="course instructor image" class="author-img" style="height: 50px;">
+
+
+                  <a href="#" class="author-name">Lionel Johnson N. MOUKENDOU</a>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>4.7 (5k)</p>
+                </div>
+
+              </div>
+
+              <div class="wrapper">
+                <div class="course-price">50.000F.CFA / mois</div>
+
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+
+                  <p>545k</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="course-card">
+
+            <div class="course-banner">
+              <img src="./assets/images/kid (1).webp" alt="course banner">
+
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Développeur Web</a>
+                <a href="#" class="badge-tag blue">Reférent Digital</a>
+              </div>
+            </div>
+
+            <div class="course-content">
+
+              <h3 class="card-title">
+                <a href="#">Apprendre à coder en tant que professionnel.</a>
+              </h3>
+
+              <div class="wrapper border-bottom">
+
+                <div class="author">
+                  <img src="./assets/images/av2.png" alt="course instructor image" class="author-img" style="height: 50px;">
+
+
+                  <a href="#" class="author-name">Lionel Johnson N. MOUKENDOU</a>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>4.1 (3k)</p>
+                </div>
+
+              </div>
+
+              <div class="wrapper">
+                <div class="course-price">30.000F.CFA / mois</div>
+
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+
+                  <p>317k</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="course-card">
+
+            <div class="course-banner">
+              <img src="./assets/images/kid9.jpg" alt="course banner">
+
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Business</a>
+                <a href="#" class="badge-tag blue">Marketing</a>
+              </div>
+            </div>
+
+            <div class="course-content">
+
+              <h3 class="card-title">
+                <a href="#">Améliorer l'accessibilité de démarque de vos enfants.</a>
+              </h3>
+
+              <div class="wrapper border-bottom">
+
+                <div class="author">
+                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+
+                  <a href="#" class="author-name">Lionel Johnson N. MOUKENDOU</a>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>4.8 (3.9k)</p>
+                </div>
+
+              </div>
+
+              <div class="wrapper">
+                <div class="course-price">30.000F.CFA / mois</div>
+
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+
+                  <p>891k</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="course-card">
+
+            <div class="course-banner">
+              <img src="./assets/images/kid (4).jpg" alt="course banner">
+
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Développeur Web</a>
+                <a href="#" class="badge-tag blue">Reférent Digital</a>
+              </div>
+            </div>
+
+            <div class="course-content">
+
+              <h3 class="card-title">
+                <a href="#">Requête principale en peu de temps.</a>
+              </h3>
+
+              <div class="wrapper border-bottom">
+
+                <div class="author">
+                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+
+                  <a href="#" class="author-name">Lionel Johnson</a>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>3.8 (1k)</p>
+                </div>
+
+              </div>
+
+              <div class="wrapper">
+                <div class="course-price">50.000F.CFA /mois</div>
+
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+
+                  <p>204k</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="course-card">
+
+            <div class="course-banner">
+              <img src="./assets/images/kid (8).jpg" alt="course banner">
+
+              <div class="course-tag-box">
+                <a href="#" class="badge-tag orange">Développeur Web</a>
+                <a href="#" class="badge-tag blue">Reférent Digital</a>
+              </div>
+            </div>
+
+            <div class="course-content">
+
+              <h3 class="card-title">
+                <a href="#">Cours d'analyste en intelligence d'affaires 2023.</a>
+              </h3>
+
+              <div class="wrapper border-bottom">
+
+                <div class="author">
+                  <img src="./assets/images/course-instructor-img.jpg" alt="course instructor image" class="author-img">
+
+                  <a href="#" class="author-name">Lionel Johnson</a>
+                </div>
+
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <p>4.9 (23k)</p>
+                </div>
+
+              </div>
+
+              <div class="wrapper">
+                <div class="course-price">100.000C.FCA / mois</div>
+
+                <div class="enrolled">
+                  <div class="icon-user">
+                    <img src="./assets/images/student-icon.png" alt="user icon">
+                  </div>
+
+                  <p>1.3M</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <button class="btn btn-primary">
+          <p class="btn-text">Afficher tous les cours</p>
+          <span class="square"></span>
+        </button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #EVENT SECTION
+      -->
+
+      <section class="event">
+
+        <div class="event-left">
+
+          <div class="event-banner">
+            <img src="./assets/images/sylvie.jpg" alt="event banner" class="banner-img">
+          </div>
+
+          <button class="play smooth-zigzag-anim-1">
+            <div class="play-icon pulse-anim">
+              <ion-icon name="play-circle"></ion-icon>
+            </div>
+
+            <p>Regardez-nous!</p>
+          </button>
+
+        </div>
+
+        <div class="event-right">
+
+          <p class="section-subtitle">Nos événements</p>
+
+          <h2 class="section-title">Rejoignez nos événements avenirs</h2>
+
+          <div class="event-card-group">
+
+            <div class="event-card">
+
+              <div class="content-left">
+                <p class="day">10</p>
+                <p class="month">Jan, 2023</p>
+              </div>
+
+              <div class="content-right">
+                <div class="schedule">
+                  <p class="time">10:30mn à 15:30mn</p>
+                  <p class="place">à nos fabriques respectives</p>
+                </div>
+
+                <a href="#" class="event-name">Ateliers de créativité d'entreprise</a>
+              </div>
+
+            </div>
+
+            <div class="event-card">
+
+              <div class="content-left">
+                <p class="day">15</p>
+                <p class="month">Mar, 2023</p>
+              </div>
+
+              <div class="content-right">
+                <div class="schedule">
+                  <p class="time">10:30mn à 15:30mn</p>
+                  <p class="place">à nos fabriques respectives</p>
+                </div>
+
+                <a href="#" class="event-name">Performance de rue : appel à l'art.</a>
+              </div>
+
+            </div>
+
+            <div class="event-card">
+
+              <div class="content-left">
+                <p class="day">20</p>
+                <p class="month">May, 2023</p>
+              </div>
+
+              <div class="content-right">
+                <div class="schedule">
+                  <p class="time">10:30mn à 15:30mn</p>
+                  <p class="place">à nos fabriques respectives</p>
+                </div>
+
+                <a href="#" class="event-name">Conférence sur la transformation numérique & digitalisation</a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #FEATURES SECTION
+      -->
+
+      <section class="features">
+
+        <div class="features-left">
+
+          <p class="section-subtitle">CARACTERISTIQUES de base</p>
+
+          <h2 class="section-title">Découvrez notre mission</h2>
+
+          <ul>
+
+            <li class="features-item">
+              <div class="item-icon-box blue">
+                <img src="./assets/images/feature-icon-1.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">Vie étudiante</h3>
+
+                <p class="item-text">La révolution numérique est en marche, c'est un fait, l'ignorer et ne pas le comprendre est une erreur qui peut vous
+                couter très cher..</p>
+
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box pink">
+                <img src="./assets/images/feature-icon-2.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">Meilleurs cours en salle</h3>
+
+                <p class="item-text">La révolution numérique est en marche, c'est un fait, l'ignorer et ne pas le comprendre est une erreur qui peut vous
+                couter très cher..</p>
+
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box purple">
+                <img src="./assets/images/feature-icon-3.png" alt="feature icon">
+              </div>
+
+              <div class="wrapper">
+
+                <h3 class="item-title">24x2 Programmes</h3>
+
+                <p class="item-text">La révolution numérique est en marche, c'est un fait, l'ignorer et ne pas le comprendre est une erreur qui peut vous
+                couter très cher..</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="features-right">
+          <img src="./assets/images/61fac9bb51bd8d31a233f827_Section-Herographql (1).jpg" alt="core features image" style="height: 600px; margin-top: 20vh;">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #INSTRUCTOR SECTION
+      -->
+
+      <section class="instructor">
+
+        <p class="section-subtitle">Meilleurs Coach</p>
+
+        <h2 class="section-title">Notre instructeur expert</h2>
+
+        <div class="instructor-grid">
+
+          <div class="instructor-card">
+
+            <div class="instructor-img-box">
+              <img src="./assets/images/coach sylvere.jpg" alt="instructor louis sullivan">
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Sylvère BOUSSAMBA</h4>
+
+            <p class="instructor-title">Fondateur & Coach - Conférencier</p>
+
+          </div>
+
+          <div class="instructor-card">
+
+            <div class="instructor-img-box">
+              <img src="./assets/images/sylvie.jpg" alt="instructor camden david">
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Sylvie TOURE</h4>
+
+            <p class="instructor-title">Directrice</p>
+
+          </div>
+
+          <div class="instructor-card">
+
+            <div class="instructor-img-box">
+              <img src="./assets/images/d6fe569.jpg" alt="instructor fiona dean">
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Gervais Kassa</h4>
+
+            <p class="instructor-title">Coach Développeur web</p>
+
+          </div>
+
+          <div class="instructor-card">
+
+            <div class="instructor-img-box">
+              <img src="./assets/images/av5.png" alt="instructor cherish sosa">
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Arielle</h4>
+
+            <p class="instructor-title">Responsable campus</p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #TESTIMONIALS
+      -->
+
+      <section class="testimonials">
+
+        <div class="testimonials-left">
+
+          <p class="section-subtitle">Témoignages</p>
+
+          <h2 class="section-title">Ce que disent nos clients à propos de nous</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eligendi harum earum eaque eum eos, error <br>
+            atque, numquam quae ad facere autem dolor exercitationem aut voluptatibus neque sapiente commodi libero.
+          </p>
+
+        </div>
+
+        <div class="testimonials-right">
+
+          <div class="testimonials-card">
+            <img src="./assets/images/quote.png" alt="quote icon" class="quote-img">
+
+            <p class="testimonials-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eligendi harum earum eaque eum eos, error <br>
+              atque, numquam quae ad facere autem dolor exercitationem aut voluptatibus neque sapiente commodi libero.
+            </p>
+
+            <div class="testimonials-client">
+
+              <div class="client-img-box">
+                <img src="./assets/images/av5.png" alt="client christy koumba" style="height: 10vh; border-radius: 50%;">
+              </div>
+
+              <div class="client-detail">
+                <h4 class="client-name">Christy KOUMBA</h4>
+
+                <p class="client-title">Cliente</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- - #BLOG-->
+
+     <section class="blog" id="blog">
+
+        <p class="section-subtitle">Notre blog</p>
+
+        <h2 class="section-title">Derniers Blog & Nouvelles</h2>
+
+        <div class="blog-grid">
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/kid (6).jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Analyse & compréhension du besoin.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">07 Jan, 2022</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">3 Commentaires</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/filles.jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Reférant digital.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">04 Jan, 2023</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">10 Commentaires</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+
+            <div class="blog-banner-box">
+              <img src="./assets/images/kid (8).jpg" alt="blog banner">
+            </div>
+
+            <div class="blog-content">
+
+              <h3 class="blog-title">
+                <a href="#">Développeur web & wb mobile.</a>
+              </h3>
+
+              <div class="wrapper">
+
+                <div class="blog-publish-date">
+                  <img src="./assets/images/calendar.png" alt="calendar icon">
+
+                  <a href="#">01 Jan, 2022</a>
+                </div>
+
+                <div class="blog-comment">
+                  <img src="./assets/images/comment.png" alt="comment icon">
+
+                  <a href="#">5 Commentaires</a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="contact">
+
+        <div class="contact-card" id="contact">
+          <img src="./assets/images/cta-bg-img.png" alt="shape" class="contact-card-bg">
+
+          <h2>Trouvez la formation aux métiers du numérique qui convient à votre enfants</h2>
+
+          <button class="btn btn-primary">
+            <p class="btn-text">Contactez-nous</p>
+            <span class="square"></span>
+          </button>
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-grid">
+
+        <div class="grid-item">
+
+          <div class="footer-logo">
+            <img src="./assets/images/logo 241.jpg" alt="logo ecole 241 kids" style="height: 45px;">
+          </div>
+
+          <p class="footer-text">
+            Le développement systématique des outils numériques impacte fortement les travailleurs et les entreprises. La
+            quasi-totalité des métiers comportent une composante numérique. Les connaissances digitales font aujourd’hui partie des
+            compétences initiales.
+          </p>
+
+          <div class="social-link">
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+
+        <ul class="grid-item">
+
+          <h4 class="item-heading">Notre lien</h4>
+
+          <li class="list-item">
+            <a href="#home">Home</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#about">A propos</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#course">Formations</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#blog">Tarifs</a>
+          </li>
+          <li class="list-item">
+            <a href="#blog">Blog</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="grid-item">
+
+          <h4 class="item-heading">Autres liens</h4>
+
+          <li class="list-item">
+            <a href="#">Coach</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#">Fabriques</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#">Evènements</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#">Politique de confidentialiaté</a>
+          </li>
+
+          <li class="list-item">
+            <a href="#">Termes & Conditions</a>
+          </li>
+
+        </ul>
+
+        <div class="grid-item">
+
+          <h4 class="item-heading">Nous contacter</h4>
+
+          <div class="wrapper">
+            <form id="demande" action="" method="post">
+              <input placeholder="Nom et prénom" type="text" tabindex="1" required autofocus><br><br>
+              <input placeholder="Numéro de téléphone" type="text" tabindex="1" required autofocus><br><br>
+              <input placeholder="Addresse mail" type="email" tabindex="2" required><br><br>
+              <input placeholder="votre ville" type="text" tabindex="3" required><br><br>
+              <textarea placeholder="Rédigez votre texte ici!" tabindex="5" required></textarea><br><br>
+              <button class="send-btn">
+              <ion-icon name="paper-plane"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="copyright">
+        Copyright © Lionel Johnson N. MOUKENDOU 2022 <a href="#">officiel.lionel26@gmail.com / +24174129812</a>. Tous droits réservés.</p>
+
+      
+
+      <!--------------Chatbox whatsapp---------->
+      <script type="text/javascript">
+        var config = {
+          phone: " +24174129812",
+          call: "Nous laisser un message",
+          position: "ww-right",
+          size: "ww-normal",
+          text: "Salut! Je suis intéressé par vos offres",
+          type: "ww-standard",
+          brand: "Ecole 241 Kids",
+          subtitle: "Formation aux métiers du numérique pour enfanrs",
+          welcome: "Salut!Comment pourrions-nous vous aider?"
+        };
+        var proto = document.location.protocol, host = "cloudfront.net", url = proto + "//d3kzab8jj16n2f." + host;
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = url + "/v2/main.js";
+
+        s.onload = function () { tmWidgetInit(config) };
+        var x = document.getElementsByTagName("script")[0]; x.parentNode.insertBefore(s, x);
+      </script>0
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="//code.tidio.co/gzuellqhoonulgafizifznwmvmdrbg91.js" async></script>
+
+</body>
+
+</html>
